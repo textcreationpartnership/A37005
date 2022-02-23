@@ -1,0 +1,721 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A pindarick poem upon the fleet written by Mr. D'urfey.</title>
+            <author>D'Urfey, Thomas, 1653-1723.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A37005</idno>
+            <idno type="STC">Wing D2761</idno>
+            <idno type="STC">ESTC R26680</idno>
+            <idno type="EEBO-CITATION">09523462</idno>
+            <idno type="OCLC">ocm 09523462</idno>
+            <idno type="VID">43453</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A37005)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 43453)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1330:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A pindarick poem upon the fleet written by Mr. D'urfey.</title>
+                  <author>D'Urfey, Thomas, 1653-1723.</author>
+               </titleStmt>
+               <extent>15 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed and are to be sold by Randal Taylor,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>England and Wales. --  Royal Navy --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:43453:1" rendition="simple:additions"/>
+            <p>A PINDARICK POEM UPON THE FLEET.</p>
+            <p>Written by Mr. <hi>D'urfey.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed, and are to be ſold by <hi>Randal Taylor,</hi> near <hi>Stationers-Hall.</hi> 1692.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:43453:2" rendition="simple:additions"/>
+            <pb n="1" facs="tcp:43453:2"/>
+            <head>A Pindarick POEM.</head>
+            <lg n="1">
+               <head>I.</head>
+               <l>CALM was the Ocean, as when firſt the Sun</l>
+               <l>Bleſſing the new Creation, had begun,</l>
+               <l>To prove the Makers power, and diſperſe</l>
+               <l>Indulgent Beams arround the Infant Univerſe:</l>
+               <l>Triumphant <hi>Neptune</hi> clear'd his ſtormy Brow,</l>
+               <l>Curl'd his green dropping Locks, and now</l>
+               <l>His Aged face with wanton ſmiling ſeem'd</l>
+               <l>As if his preſent Joy, had his paſt years redeem'd.</l>
+               <l>About him throng'd in every place,</l>
+               <l>
+                  <hi>Naereids</hi> and <hi>Trytons,</hi> all the Finny Race</l>
+               <l>That many a Century of years had ſtrove;</l>
+               <l>T' expreſs their dutious Zeal and Love,</l>
+               <l>Where-e're the Watry God his Chariot drove.</l>
+               <l>Huſh'd in the Calm of ſoft contentment lay,</l>
+               <l>Some Dancd, whil'ſt others with the Sea Nymphs play,</l>
+               <l>All pleas'd to ſee their Monarch ſmile, &amp; the propitious day.</l>
+            </lg>
+            <lg n="2">
+               <head>II.</head>
+               <l>For now <hi>Great Britains</hi> Glory 'gan t' appear,</l>
+               <l>The Royal Navy here,</l>
+               <l>Predeſtin'd bleſt, its glorious Courſe did Steer:</l>
+               <l>Caſtles Impregnable, not made to yield,</l>
+               <l>As when of old the hands of Gods did build;</l>
+               <pb n="2" facs="tcp:43453:3"/>
+               <l>Glide on the rowling Billows and make ſport</l>
+               <l>With each opoſing ſurge, a Monarchs Court</l>
+               <l>Is every Veſſel, and in every Room</l>
+               <l>
+                  <hi>Caeſar</hi> might think himſelf at home,</l>
+               <l>The Amorous Sails ſwell with the Winds that blow,</l>
+               <l>And Woods of <hi>Engliſh</hi> Oak upon the Ocean grow,</l>
+               <l>The <hi>Flower de Luce,</hi> and Type of <hi>Engliſh</hi> fame,</l>
+               <l>When they the <hi>French</hi> did fame:</l>
+               <l>Guilds every Flag, and in each Lyons eyes</l>
+               <l>The Rage of our wrong'd Nation ſeems to riſe;</l>
+               <l>To ſee what now they are,</l>
+               <l>And heretofore we were;</l>
+               <l>When Martial <hi>Henry</hi> drove'em to their Walls,</l>
+               <l>And Royally reveng'd the mock of their proud Tennis-Balls.</l>
+            </lg>
+            <lg n="3">
+               <head>III.</head>
+               <l>
+                  <hi>Britannia</hi> firſt the Empreſs of the Fleet,</l>
+               <l>In awful pomp rides on each humble Wave;</l>
+               <l>Who forward Crowd with joy as pleas'd to meet:</l>
+               <l>Her glorious Stern and mighty ſides to Lave;</l>
+               <l>The Jocund Dolphins round about her Keel,</l>
+               <l>Whene're the Martial Trumpets Sound;</l>
+               <l>The Charming Influence of Muſick feel,</l>
+               <l>And Dance an Antick Round;</l>
+               <l>Whil'ſt on the Deck a Thouſand Heroes are;</l>
+               <l>Valiant and young, true Natives, ſcorning fear,</l>
+               <l>That <hi>Englands</hi> Ancient Blood, and Honour bear:</l>
+               <l>And at their feet a hundred Brazen fates;</l>
+               <l>That kill as faſt as <hi>Jove</hi> Creates:</l>
+               <l>When their hot Balls of Death are flying on,</l>
+               <l>T' Eclipſe the great falſe Light of the proud Gallick <hi>Sun.</hi>
+               </l>
+            </lg>
+            <lg n="4">
+               <head>IV.</head>
+               <l>With Bloody Streamers Waving in the Wind,</l>
+               <l>The Soveraign next does ſteer her graceful Courſe,</l>
+               <l>Raiſing her Royal head, nor is behind</l>
+               <l>
+                  <hi>Britannia</hi> for her bravery or Force;</l>
+               <pb n="3" facs="tcp:43453:3"/>
+               <l>Imperial State, Majeſtick like her Name,</l>
+               <l>Reigns in each Motion, and do's nobly ſhow,</l>
+               <l>Her juſt diſdain of an Invading Foe;</l>
+               <l>That dares affront her Country or her Fame.</l>
+               <l>Next her the <hi>Phoenix London</hi> Booms along,</l>
+               <l>The Lofty Theam of a fam'd Laureats Song:</l>
+               <l>That like great <hi>Maro,</hi> beſt could treat of Kings;</l>
+               <l>And write in mighty numbers mighty things.</l>
+               <l>The Great St. <hi>Andrew</hi> too in equal Rank;</l>
+               <l>Exalts her Glittering Prow;</l>
+               <l>Proud of her Walls of Oak, and Death defying Plank;</l>
+               <l>Altho they never did in <hi>Scotland</hi> grow;</l>
+               <l>And laſtly, to fill up the glorious Line,</l>
+               <l>The bleſt <hi>St. Michael,</hi> like her Name Divine;</l>
+               <l>Crown'd with auſpicious Fortune comes,</l>
+               <l>
+                  <hi>Gallia</hi>'s inveterate Foe and <hi>Rome's.</hi>
+               </l>
+               <l>For as the Conquering Archangel fought,</l>
+               <l>And th' Helliſh Dragon to confuſion brought;</l>
+               <l>That o're Mankind ſo proſperouſly prevails,</l>
+               <l>So is ſhe doom'd to rout and quell the Dragon of <hi>Verſailles.</hi>
+               </l>
+            </lg>
+            <lg n="5">
+               <head>V.</head>
+               <l>And after theſe with ſpreading Sails appear,</l>
+               <l>More wonders moving in a lower ſphere,</l>
+               <l>A noble Fleet of ſecond and third Rates,</l>
+               <l>Our Cauſes Bulwark and the States;</l>
+               <l>That our beſt brood of <hi>Engliſh</hi> bear,</l>
+               <l>Heroes that hold their Honour as a Jem,</l>
+               <l>Of rich, and of unpriz'd eſteem;</l>
+               <l>And weigh each Veſſel that for Empire ſtrives,</l>
+               <l>Dear as their darling Lives.</l>
+               <l>The glorious <hi>Neptune,</hi> and the <hi>Vanguard</hi> bold</l>
+               <l>The <hi>Sandwich</hi> fam'd for bravery of old;</l>
+               <l>The <hi>Royal Duke,</hi> and Valiant <hi>Oſſory,</hi>
+               </l>
+               <l>The Beautious <hi>Dutcheſs,</hi> Miſtriſs of the Sea:</l>
+               <l>The <hi>Dreadnought,</hi> and the <hi>Reſtauration,</hi>
+               </l>
+               <l>The <hi>Reſolution,</hi> ſworn to right the Nation;</l>
+               <pb n="4" facs="tcp:43453:4"/>
+               <l>And next as good as e're did Sayls unfurle,</l>
+               <l>The great reſtorer of a Crown, the Loyal <hi>Albermarle.</hi>
+               </l>
+            </lg>
+            <lg n="6">
+               <head>VI.</head>
+               <l>With many more, ſacred in deathleſs fame,</l>
+               <l>And in their brave Commanders bleſt;</l>
+               <l>That ſcorn to play the laſt years wretched Game,</l>
+               <l>Or ſell their Honour for baſe Intereſt;</l>
+               <l>A noble courage ſwells each Martial heart,</l>
+               <l>Whil'ſt even each Coward Charm'd with ſecret ſhame,</l>
+               <l>Grows ſtout in ſpite of fear, and acts a Heroes part;</l>
+               <l>To right his Country and redeem his fame,</l>
+               <l>The hated thought of Gallick Tyranny<g ref="char:punc">▪</g>
+               </l>
+               <l>In every freeborn Engliſh Soul,</l>
+               <l>Will juſt reſentment raiſe to a degree,</l>
+               <l>That all ſuch baſeneſs muſt controul;</l>
+               <l>And as we of a Noble <hi>Roman</hi> read,</l>
+               <l>Who that his Country might be freed;</l>
+               <l>Bravely adventur'd, tho without reward,</l>
+               <l>To ſtab a Tyrant amongſt all his Guard.</l>
+               <l>So rather than the <hi>French</hi> command our Sea,</l>
+               <l>Or in ſweet <hi>Albion</hi> Plant their hated Colony,</l>
+               <l>From out our Navy, or our Power at Land,</l>
+               <l>Some Son of Fame, ſome glorious Hand,</l>
+               <l>No doubt the ſacred Steel will draw,</l>
+               <l>And gloriouſly acquire the Name of <hi>Engliſh Scaevola.</hi>
+               </l>
+            </lg>
+            <lg n="7">
+               <head>VII.</head>
+               <l>Thus in an Intellectual Viſion loſt,</l>
+               <l>My ſences charm'd with the inchanting view,</l>
+               <l>A Scene, to equal which <hi>Apelles</hi> ne're could boaſt,</l>
+               <l>And mighty <hi>Titian</hi> never drew;</l>
+               <l>Whilſt long with Pleaſure ſated I ſurvey'd</l>
+               <l>The dazling Glory of the Sea,</l>
+               <l>Where Naval Pomp in ſplendour lay,</l>
+               <l>And <hi>Englands</hi> Grandeur was at large diſplay'd,</l>
+               <pb n="5" facs="tcp:43453:4"/>
+               <l>Methought the Watry God in ſtate,</l>
+               <l>Drew near the Royal Fleet,</l>
+               <l>And with a Grace Majeſtick ſeem'd to greet,</l>
+               <l>Her <note n="*" place="margin">The <hi>Nep<g ref="char:EOLhyphen"/>tune</hi> 2d. Rate.</note> that was honour'd with his Name, &amp; we have mention'd late.</l>
+               <l>His numerous train of leſſer Deities,</l>
+               <l>Around his ſhelly Chariot rowl'd,</l>
+               <l>The Winds were huſh'd, and not a Breeze Durſt be ſo bold,</l>
+               <l>To move the ſilent Waves; but now, as if his Power</l>
+               <l>Had doom'd the Marine world to reſt that happy hour,</l>
+               <l>No ſound was heard through all his Scaly <hi>Guard du Ceur.</hi>
+               </l>
+            </lg>
+            <lg n="8">
+               <head>VIII.</head>
+               <l>On a high Rock that daſh'd with Waves had ſtood,</l>
+               <l>E're ſince th' Almighty <hi>Fiat</hi> made the Sea,</l>
+               <l>And ſtemm'd the ſhock of the tempeſtuous flood,</l>
+               <l>At whoſe deep root old Father Ocean lay,</l>
+               <l>And to a hollow Cell had carv'd his wondrous way:</l>
+               <l>
+                  <hi>Neptune</hi> advances, and to th' Aged Sire,</l>
+               <l>(Whom Joy uncommon did inſpire,</l>
+               <l>To ſee the Seas triumphant God,</l>
+               <l>Honour the place of his abode)</l>
+               <l>Waving his ſacred Trident, th' Father grac'd,</l>
+               <l>And on the Rocks leaſt Craggy part upon his right hand plac'd.</l>
+               <l>Then full of Oracle the profound ſilence broke,</l>
+               <l>And thus of his Lov'd <hi>Albion</hi> with Divine fury ſpoke.</l>
+            </lg>
+            <lg n="9">
+               <head>IX.</head>
+               <l>Oh thou, the Garden of the Univerſe,</l>
+               <l>Whoſe fame the Songs of Angels might diſperſe;</l>
+               <l>And Bards Divine, where Wit is moſt extream,</l>
+               <l>And merit Wreaths of Lawrel from the mighty Theme,</l>
+               <l>Thou lovely Park, where Herds of Kings may dwell</l>
+               <l>Pal'd in with Sea, and be Invincible.</l>
+               <l>Thou bliſsful ſeat, which the Eternal made</l>
+               <l>(Untir'd with the Creating Trade)</l>
+               <pb n="6" facs="tcp:43453:5"/>
+               <l>Before the courſer Mould had its decree,</l>
+               <l>To form the common Herb, or Flower, or Tree.</l>
+               <l>How oft from my profound receſs below,</l>
+               <l>Did I my ſorrow ſhew?</l>
+               <l>Sorrow as great as poſſible could be,</l>
+               <l>When Pity moves a Deity,</l>
+               <l>To ſee my Darling <hi>Britain,</hi> my Lov'd Iſle,</l>
+               <l>Grow ſo Degenerate and Vile;</l>
+               <l>Sickning with Sloth, and baneful Luxury;</l>
+               <l>Her Credit loſt to a degree</l>
+               <l>Of Cowardiſe, and groſs Stupidity:</l>
+               <l>Whilſt her inſulting Neighbour Potent grows,</l>
+               <l>And her once petty Foes,</l>
+               <l>That ſome few Ages paſt,</l>
+               <l>Gladly a Peace with her embrac'd:</l>
+               <l>Whom her Immortal Kings, in former times,</l>
+               <l>Have Conquer'd in their Native Climes;</l>
+               <l>Took Royal Priſoners in the Field,</l>
+               <l>And to their own Conditions made them yield,</l>
+               <l>And from the glittering Banner of their Crown,</l>
+               <l>Taken the Impreſs to adorn her own.</l>
+               <l>Now by her ſloth undone, and treachery,</l>
+               <l>Her Schiſm, Rebellion, and Impiety;</l>
+               <l>And by neglect in War ſo long remiſs,</l>
+               <l>Have given her Foes hope to poſſeſs,</l>
+               <l>And her ſubſtantial Lyons win for th' Titular <hi>Fleur de Lice.</hi>
+               </l>
+            </lg>
+            <lg n="10">
+               <head>X.</head>
+               <l>Redeem, redeem, thy wretched loſs of time,</l>
+               <l>Redeem thy honour, mouldring as the Grave;</l>
+               <l>No longer doze and hug thy ſluggiſh crime,</l>
+               <l>But rouze, and ſinking credit ſave.</l>
+               <l>The Deſtinies are kind, the Book of Fate is fair,</l>
+               <l>No blotted Omen does appear,</l>
+               <l>But Influence benevolent crowns the auſpicious year.</l>
+               <l>Thy Wealth is mighty, and thy Navy great,</l>
+               <l>And bluſhing Victory ſeems to wait,</l>
+               <l>As Pre-ordain'd by Fate.</l>
+               <pb n="7" facs="tcp:43453:5"/>
+               <l>The Powers too of my Empire all agree,</l>
+               <l>From the vaſt Caverns of unfathom'd Sea,</l>
+               <l>To aſſiſt <hi>Britains</hi> Cauſe eſpous'd by me.</l>
+               <l>The Waves ſhall mount, and Winds ſhall rage,</l>
+               <l>Rough <hi>Boreas</hi> ſhall the Foe ingage;</l>
+               <l>Who toſs'd in fatal ſtorms ſhall ſcatter far,</l>
+               <l>Or blindly on themſelves make War,</l>
+               <l>Whilſt <hi>Zephyrus,</hi> and every gentle Wind,</l>
+               <l>Still to thy Fleet propitious are and kind,</l>
+               <l>And on my watry Plain ſhall ſafely ride,</l>
+               <l>Untroubled with a ruffling ſtorm, or with a rowling tide.</l>
+            </lg>
+            <lg n="11">
+               <head>XI.</head>
+               <l>And as the Natives on thy chalky ſhore,</l>
+               <l>Behold with Joy thy Naval Power,</l>
+               <l>Greater than <hi>Britain</hi> e're could boaſt before.</l>
+               <l>Who if they Loyal ſervice pay,</l>
+               <l>And take no Bribes their Country to betray,</l>
+               <l>Are ſtrong enough to gain a univerſal ſway.</l>
+               <l>So Fame through thy Perſpective let them ſee,</l>
+               <l>
+                  <hi>Albions</hi> Felicity,</l>
+               <l>Fix'd in her preſent Monarchs Bravery.</l>
+               <l>
+                  <hi>Royal Naſſaw,</hi> of whom to write is vain,</l>
+               <l>'T would blunt the ableſt Pen, and crack the ſoundeſt Brain.</l>
+               <l>Th'extreme of thought, adorn'd with niceſt Wit,</l>
+               <l>His character has never writ,</l>
+               <l>Deſcribe all good they can, they muſt leave ſomething yet.</l>
+               <l>Call him Deliverer, let <note n="*" place="margin">Church.</note> 
+                  <hi>Euſebia</hi> kneel,</l>
+               <l>And ſhow the Wounds ſhe did ſo lately feel,</l>
+               <l>Unveil the bleeding breaſt his ſoveraign balm did heal.</l>
+               <l>And then in Prayer her grateful homage ſhew,</l>
+               <l>Still 'tis a ſacrifice too low.</l>
+               <l>Or ſtile him Pious, Generous, Valiant, Wiſe,</l>
+               <l>Who beyond <hi>Virgil's</hi> Muſe, or ſoaring <hi>Pindar</hi> flyes,</l>
+               <l>Will reach his Fame no more than Mole-hills do the Skies.</l>
+               <l>Strict Moral Vertue does his breaſt controul,</l>
+               <l>And there reigns in him a true Kingly Soul.</l>
+               <pb n="8" facs="tcp:43453:6"/>
+               <l>Not ſway'd by Avarice or Luxury,</l>
+               <l>Tyrannick Luſt, nor poor Dogmatick Bigottry,</l>
+               <l>But firm to Honour, true to his great truſt,</l>
+               <l>And to the meaneſt of his ſubjects Juſt<g ref="char:punc">▪</g>
+               </l>
+               <l>In time of War none readier than he,</l>
+               <l>To hazard life in th' Field, or launch to Sea;</l>
+               <l>The Hunt of Glory is his chief delight,</l>
+               <l>But careful that his cauſe is right,</l>
+               <l>Upon <hi>French</hi> Principles Great <hi>Naſſaw</hi> will not fight,</l>
+               <l>But on juſt motives, with the firſt go on,</l>
+               <l>And face the worſt of dangers, like each private man;</l>
+               <l>His Royal heart mix with the common File;</l>
+               <l>Nor will he wear the Wreath, unleſs he ſhare the toil.</l>
+               <l>But to retrieve the glory of his Nation,</l>
+               <l>Still puſhes forward on each brave occaſion,</l>
+               <l>
+                  <hi>And his ſucceſsful Valour proves Divine Predeſtination.</hi>
+               </l>
+            </lg>
+            <lg n="12">
+               <head>XII.</head>
+               <l>Next Reverend Father, lift thy Eyes;</l>
+               <l>And if the aged Opticks of thy ſight,</l>
+               <l>Can bear a Ray ſo bright,</l>
+               <l>As never yet was rivall'd in the skies,</l>
+               <l>See <hi>Gloriana</hi> ſighing on the Throne;</l>
+               <l>Her Royal Lord the Faiths Defender gone.</l>
+               <l>Obſerve how filial Piety,</l>
+               <l>Loaded with State, and ſoveraign Dignity,</l>
+               <l>The weighty preſſure of a Crown;</l>
+               <l>The Peoples ſatisfaction not her own,</l>
+               <l>Diſturbs her ſacred reſt; and anxious Care,</l>
+               <l>Inveterate Foe to all the Fair,</l>
+               <l>In th' midſt of her feign'd ſmiles ſtill ſits as chief,</l>
+               <l>And ſhews true Beauty in a ſhrowd of grief.</l>
+               <l>See how the ſcale of Juſtice wiſely ſhe commands,</l>
+               <l>And holds the ſword with guiltleſs hands:</l>
+               <l>A perfect Angel in a double kind,</l>
+               <l>For outward Grace and Vertues of her Mind.</l>
+               <pb n="9" facs="tcp:43453:6"/>
+               <l>Her heart with Care of her great charge oppreſt,</l>
+               <l>Still throbs within her heav'nly breaſt.</l>
+               <l>She wiſhes Peace, but ah! it will not be,</l>
+               <l>The Lands Contagion ſpreads to that degree,</l>
+               <l>'Tis only War can cure the hated Malady.</l>
+               <l>Yet in the midſt of Wars alarms,</l>
+               <l>Its hourly terrours, and impending harms,</l>
+               <l>That diſcompoſe her mighty ſoul,</l>
+               <l>And over all delights controul,</l>
+               <l>Her Influencing eyes are ſtill the ſame,</l>
+               <l>And with their uſual luſtre flame;</l>
+               <l>Her face is all ſerene and fair,</l>
+               <l>And tho <hi>Bellona</hi> may appear,</l>
+               <l>Warring within her troubled heart, Love keeps his Revels there.</l>
+            </lg>
+            <lg n="13">
+               <head>XIII.</head>
+               <l>Her Siſter in the next bright ſphere does move,</l>
+               <l>Twin-like, in Vertue, Piety and Love;</l>
+               <l>The happy Mother to a brood of Kings,</l>
+               <l>That ſhall in future times do wondrous things:</l>
+               <l>And as like Heaven-born Siſters they agree,</l>
+               <l>In all the points of ſacred amity.</l>
+               <l>So choiceſt bleſſings Providence beſtows,</l>
+               <l>And tho in different guifts, an equal bounty ſhews.</l>
+               <l>To one a glorious Diadem,</l>
+               <l>To th'other an unvalued Jem,</l>
+               <l>A Happy Son, a young Illuſtrious Prince,</l>
+               <l>That when the <hi>Gallick</hi> Inſolence</l>
+               <l>Shall cool, and Mighty <hi>Williams</hi> Annals fill,</l>
+               <l>With Hiſtories of Conqueſts there, as I preſage they will,</l>
+               <l>Shall march with his brave Sire, the Royal <hi>Dane,</hi>
+               </l>
+               <l>To ſummon <hi>Normandy, Poictieu</hi> and <hi>Mayne,</hi>
+               </l>
+               <l>And as our once known ancient right, <hi>Anjou</hi> and <hi>Aquitayne;</hi>
+               </l>
+               <l>From ſuch an Unkle, ſuch a Father too,</l>
+               <l>That Glorys brighteſt prize purſue.</l>
+               <l>What may we not expect,</l>
+               <l>When they our Arms direct?</l>
+               <pb n="10" facs="tcp:43453:7"/>
+               <l>What from their Conduct may not <hi>Albion</hi> do?</l>
+               <l>The firſt his Royal Word eſteems beyond a Crown,</l>
+               <l>And by their Words good Monarchs beſt are known.</l>
+               <l>Nor can a Kings Divinity be true,</l>
+               <l>Unleſs Word be not ſacred too.</l>
+               <l>This, this, is <hi>Caeſars</hi> Maxime, he who now commands.</l>
+               <l>The boldeſt Sons of Fame in Foreign Lands,</l>
+               <l>Whilſt <hi>Denmarks</hi> noble Prince as bravely here,</l>
+               <l>Offers his blood; and rather than not bear,</l>
+               <l>In <hi>Britains</hi> danger, or its fame, a ſhare,</l>
+               <l>Reſolves t'Ingage at Sea a Royal Volunteer.</l>
+            </lg>
+            <lg n="14">
+               <head>XIV.</head>
+               <l>Thus ſpoke the <hi>Marine</hi> God, and all around,</l>
+               <l>From the Rocks hollow Cells and Deeps profound,</l>
+               <l>The liſtning <hi>Tritons</hi> riſe, and ſhelly Trumpets ſound,</l>
+               <l>Attended with a numerous train</l>
+               <l>Of ſcaly Mobble of the Main,</l>
+               <l>Who ſwam in crowds to ſee that pompous ſhow,</l>
+               <l>A glorious City made of Caſtles, flow.</l>
+               <l>Then bloated with the News,</l>
+               <l>Down to their Manſion Ooze,</l>
+               <l>And diſtant fry, with Joy return again.</l>
+               <l>But amongſt all that <hi>Neptunes</hi> ſpeech had heard,</l>
+               <l>And in attention had rever'd,</l>
+               <l>Hoary <hi>Oceanus</hi> ſat with moſt regard;</l>
+               <l>His awful Counſellour and Friend,</l>
+               <l>That long ſince had his favour gain'd,</l>
+               <l>For grateful ſervice in his Love,</l>
+               <l>When <hi>Ampitrite</hi> firſt ſervice in his hearts paſſion move,</l>
+               <l>Who as ſhe at the foot of <hi>Allas</hi> ſate,</l>
+               <l>Priding her ſelf in her free Virgin ſtate,</l>
+               <l>Was by her Grandfire ſnatch'd away,</l>
+               <l>And on a <hi>Dolphin</hi> forc'd to ride,</l>
+               <l>Through the vaſt Empire of the Sea,</l>
+               <l>To be deboachd into a Bribe<g ref="char:punc">▪</g>
+               </l>
+               <pb n="11" facs="tcp:43453:7"/>
+               <l>He, till the <hi>Marine</hi> Deity had done</l>
+               <l>His late admir'd Oration,</l>
+               <l>Withheld his ſmothering griefs; but now</l>
+               <l>Sighs taking vent, his boſom large did grow</l>
+               <l>With ſorrows, that he could no longer tame;</l>
+               <l>Which from his ſwelling breaſt at laſt, thus broke into a flame.</l>
+            </lg>
+            <lg n="15">
+               <head>XV.</head>
+               <l>Great King of boundleſs floods, to whom was given</l>
+               <l>Not only the great Empire of the Sea,</l>
+               <l>But as a more peculiar Lott from Heaven,</l>
+               <l>A Wiſdom large as thy Imperial ſway.</l>
+               <l>Tho happy <hi>Albion</hi> in thy favour bleſt,</l>
+               <l>Above all Nations may Exalt her head,</l>
+               <l>A ſecret Pang torments my breaſt,</l>
+               <l>To ſee how ſpiritleſs and dead</l>
+               <l>The Natives are that throng her chalky ſhore,</l>
+               <l>And how unlike their brood of Heroes heretofore.</l>
+               <l>Glory was once the ſubject of their Arms,</l>
+               <l>But now for Intereſt each faction ſwarms;</l>
+               <l>And Honour which each noble boſome ſway'd,</l>
+               <l>For Gold is barter'd, and become a Trade.</l>
+               <l>Nay, even Religion grows ſophiſticate,</l>
+               <l>And baſe diſſenting ſchiſm of late,</l>
+               <l>With errours jarring, ſet 'em all at ſtrife;</l>
+               <l>They Preach up t'other, but they love this life.</l>
+               <l>Even the moſt Reverend of the ſacred Myſtery,</l>
+               <l>The weakeſt eyes may plainly ſee,</l>
+               <l>Not proof againſt the luſcious bait of tempting dignity.</l>
+               <l>Why ſince their Soul and Flocks ſhould be their care,</l>
+               <l>Should worldly accidents their boſomes ſhare,</l>
+               <l>And ſordid Lucre take poſſeſſion there?</l>
+               <l>At leaſt whilſt ſacred Providence,</l>
+               <l>Allows a proper competence,</l>
+               <l>Why ſhould their obſtinate and ſtubborn will</l>
+               <l>Occaſion to their Country ſo much ill,</l>
+               <pb n="12" facs="tcp:43453:8"/>
+               <l>As in their Cauſe, to make vile fewds increaſe,</l>
+               <l>And they themſelves renounce the Type of Apoſtolick peace.</l>
+            </lg>
+            <lg n="16">
+               <head>XVI.</head>
+               <l>In Court too 'tis the ſame,</l>
+               <l>Few there by Virtue purchaſe Fame,</l>
+               <l>But he that beſt can over-reach, beſt plays the Courtiers game.</l>
+               <l>The Politician tires his brains</l>
+               <l>But for his own peculiar gains,</l>
+               <l>His Countries Cauſe might ſink, loſt be the ſtate,</l>
+               <l>Had he not ſome by-ends of being great.</l>
+               <l>Or ſhould we ſearch the Lawyers honeſty,</l>
+               <l>In knaviſh Courts of Common-Pleas, or couzning Chancery,</l>
+               <l>You'd find Integrity appear</l>
+               <l>The worſt of all the Cauſes there.</l>
+               <l>Rich <hi>Mammons</hi> buſineſs ſhall not go amiſs,</l>
+               <l>But poor <hi>Phillemon</hi> ſues <hi>in forma pauperis;</hi>
+               </l>
+               <l>And tho his worth be great, ſhall ſeldom draw</l>
+               <l>To aid him, the compaſſion of the Law.</l>
+               <l>In Love too we the ſame defects behold,</l>
+               <l>Hearts now are bought and ſold;</l>
+               <l>The Man of ſenſe, alas! in vain does Wooe,</l>
+               <l>Dull Ignorance with Gold, can Vertue far outdo,</l>
+               <l>Be Merit ne're ſo great, or Paſſion ne're ſo true.</l>
+               <l>
+                  <hi>Cinthia</hi> ſtill chooſes wealthieſt Men,</l>
+               <l>Th' ill fated fair one never looks within,</l>
+               <l>Ne're asks how worthy, but how great?</l>
+               <l>What qualities, but what Eſtate?</l>
+               <l>And tho of gifts of fortune ſhe's poſſeſt,</l>
+               <l>Enough to make ſome man of merit bleſt,</l>
+               <l>Who would in grateful ſervice waſte his life</l>
+               <l>T' oblige ſo generous a Wife;</l>
+               <l>And happineſs that way ſecure,</l>
+               <l>Which the Rich Husbands Gold can ne're aſſure.</l>
+               <l>Yet land and titles bear the ſway,</l>
+               <l>
+                  <hi>Cinthia</hi> does Avarice obey;</l>
+               <pb n="13" facs="tcp:43453:8"/>
+               <l>And in her eye, how poorly does appear</l>
+               <l>A thouſand Vertues, when compar'd t' a thouſand pounds a year.</l>
+            </lg>
+            <lg n="17">
+               <head>XVII.</head>
+               <l>In all degrees of frail Humanity</l>
+               <l>There muſt great Errors be;</l>
+               <l>But ah my aged ſight in tears is loſt,</l>
+               <l>To think that <hi>Albion</hi> bears the moſt:</l>
+               <l>The quality of every ſtrange offence</l>
+               <l>So much enrages Providence,</l>
+               <l>That Mercy after Crimes ſo baſe</l>
+               <l>Seems Impoſition upon heavenly Grace.</l>
+               <l>Obſerve what Jarrs, the bane of all content,</l>
+               <l>Amongſt themſelves her Sons foment:</l>
+               <l>Diſcord, that uſhers doubts and fears,</l>
+               <l>Is all the harmony ſhe hears;</l>
+               <l>And hated broyls 'twixt friend and friend</l>
+               <l>Brings each ſucceſſive day to its ſad end.</l>
+               <l>Curſt Bigottry began the Play,</l>
+               <l>Then Revolution chang'd the ſcene,</l>
+               <l>And brought a happy freedom in,</l>
+               <l>Till ſtubborn Pride turn'd it a tragick way,</l>
+               <l>And prov'd the humour of each Native there,</l>
+               <l>Juſt like the nature of the Clime and Air.</l>
+               <l>For as the Weather inſtantly</l>
+               <l>Can change from hot to cold, from moiſt to dry,</l>
+               <l>So they from Rebels can turn Loyal men,</l>
+               <l>Set up a King and prove his Right,</l>
+               <l>And for him Vote, and for him Fight,</l>
+               <l>And at the leaſt diſguſt can Rebels turn agen.</l>
+            </lg>
+            <lg n="18">
+               <head>XVIII.</head>
+               <l>Mean time whilſt ſchiſms poſſeſs our frantick brains,</l>
+               <l>His ends the <hi>Gallick</hi> tyrant gains:</l>
+               <l>He the rich Prize away does bear,</l>
+               <l>For which we one another tear.</l>
+               <pb n="14" facs="tcp:43453:9"/>
+               <l>What can this Mighty Navy do,</l>
+               <l>If only opulent in ſhew?</l>
+               <l>If Treaſon sculking lyes within,</l>
+               <l>And they forget the Name of <hi>Engliſh</hi> Men,</l>
+               <l>A ſcene of Glory they may idly boaſt,</l>
+               <l>But ſee with ſhame their Country loſt.</l>
+               <l>I'th' contrary, if Loyal Vertue warms</l>
+               <l>Their Valiant hearts, and they dare uſe their Arms,</l>
+               <l>If they the difference can ſee</l>
+               <l>'Twixt free-born right and ſlavery;</l>
+               <l>The <hi>French</hi> may well repent their Inſolence once more,</l>
+               <l>And never hope t'adorn their brows with Lawrels from our ſhore.</l>
+            </lg>
+            <lg n="19">
+               <head>XIX.</head>
+               <l>Thus ſpoke the Reverend Father, to whom ſtrait</l>
+               <l>The awful God reply'd,</l>
+               <l>Well has thy tongue deſcrib'd poor <hi>Albion</hi>'s ſtate,</l>
+               <l>And Cauſe of <hi>Gallick</hi> Pride;</l>
+               <l>But now in great <hi>Naſſaws</hi> Illuſtrious Reign,</l>
+               <l>The Martial Genius does return again;</l>
+               <l>Her Sons no longer Lazy Peace eſteem,</l>
+               <l>The ſouls of <hi>Edward</hi> and great <hi>Henry</hi> live in him.</l>
+               <l>
+                  <hi>Henry</hi> and <hi>William</hi> fated are the ſame;</l>
+               <l>There's a Prophetick force even in the Name,</l>
+               <l>Which does Myſteriouſly ſhew,</l>
+               <l>The latter like the firſt ſhall Conquer too.</l>
+               <l>time lately was when ſloth and eaſe,</l>
+               <l>The Poyſon to their <hi>Engliſh</hi> Blood,</l>
+               <l>And curſt deſtroyer of their good,</l>
+               <l>Worſe than the Plague, was their diſeaſe.</l>
+               <l>But now their Fortune riſes to a nobler height,</l>
+               <l>Under great <hi>William</hi> proſperouſly they fight;</l>
+               <l>Bigotted Rulers their diſgrace ſtill brings,</l>
+               <l>The dull and tame,</l>
+               <l>Ne're reach to fame;</l>
+               <l>A Martial Race thrive beſt with Martial Kings.</l>
+               <l>So, as in <hi>Numa</hi>'s ſluggiſh Reign,</l>
+               <l>Forgetful <hi>Rome</hi> diſſolv'd in eaſe,</l>
+               <pb n="15" facs="tcp:43453:9"/>
+               <l>The valiant <hi>Ancus</hi> did her fame regain,</l>
+               <l>And War ſucceeded drowſie Peace:</l>
+               <l>Their brave new Monarch a freſh game began,</l>
+               <l>And boldly led the <hi>Latins</hi> on:</l>
+               <l>Glory renew'd, the haughty <hi>Gauls</hi> did bow,</l>
+               <l>So arm'd with ſtrong fidelity,</l>
+               <l>Their troops on ſhore, and power at Sea;</l>
+               <l>Courage that ſhall in fight renew,</l>
+               <l>And my auſpicious bleſſing too,</l>
+               <l>As powerful <hi>Rome</hi> did then, ſhall mighty <hi>Albion</hi> now.</l>
+            </lg>
+            <lg n="20">
+               <head>XX.</head>
+               <l>Thus ending with an air divinely great,</l>
+               <l>The Deity roſe up and bleſt the Fleet;</l>
+               <l>At which the Sea-Gods from the ſhore,</l>
+               <l>The bleſſing twice repeating or'e,</l>
+               <l>With ſhouts confirm'd, and th' Chariot ſtrait prepare;</l>
+               <l>For now the ſoultry Air,</l>
+               <l>Began t' offend th' ſcaly Fry,</l>
+               <l>And <hi>Naereids</hi> gaſping fret, for fear their Fins ſhould dry,</l>
+               <l>Their Monarch plunging through the Sea,</l>
+               <l>Down to his Palace, drives a long myſterious way,</l>
+               <l>Through watry Provinces where Nature lyes</l>
+               <l>'Mongſt undiſcover'd Rarities.</l>
+               <l>
+                  <hi>Oceanus</hi> too, on his Sea Pacer plac'd,</l>
+               <l>To his low home made haſte;</l>
+               <l>Who whilſt th' attending Train each to his Manſion dives,</l>
+               <l>Full forty thouſand Fathom deep, the Sire at laſt arrives.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
